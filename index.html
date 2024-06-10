@@ -37,6 +37,11 @@
   <body class="cialo">
     <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <defs>
+        <symbol id="icon-Group" viewBox="0 0 36 32">
+          <path d="M1.199 4.002c0-0.637 0.253-1.247 0.703-1.697s1.061-0.703 1.697-0.703h28.8c0.637 0 1.247 0.253 1.697 0.703s0.703 1.061 0.703 1.697-0.253 1.247-0.703 1.697c-0.45 0.45-1.060 0.703-1.697 0.703h-28.8c-0.637 0-1.247-0.253-1.697-0.703s-0.703-1.061-0.703-1.697z"></path>
+          <path d="M1.199 16.002c0-0.637 0.253-1.247 0.703-1.697s1.061-0.703 1.697-0.703h28.8c0.637 0 1.247 0.253 1.697 0.703s0.703 1.061 0.703 1.697-0.253 1.247-0.703 1.697c-0.45 0.45-1.060 0.703-1.697 0.703h-28.8c-0.637 0-1.247-0.253-1.697-0.703s-0.703-1.061-0.703-1.697z"></path>
+          <path d="M1.199 28.002c0-0.637 0.253-1.247 0.703-1.697s1.061-0.703 1.697-0.703h28.8c0.637 0 1.247 0.253 1.697 0.703s0.703 1.060 0.703 1.697c0 0.636-0.253 1.247-0.703 1.697s-1.060 0.703-1.697 0.703h-28.8c-0.637 0-1.247-0.253-1.697-0.703s-0.703-1.061-0.703-1.697z"></path>
+          </symbol>
       <symbol id="icon-bialyznaczek" viewBox="0 0 32 32">
       <path fill="#f4f4fd" style="fill: var(--color1, #f4f4fd)" d="M27.026 4.016c0.553-0.529 1.289-0.822 2.052-0.816s1.495 0.31 2.040 0.847c0.545 0.538 0.861 1.267 0.881 2.034s-0.257 1.513-0.773 2.078l-15.663 19.694c-0.269 0.292-0.594 0.526-0.956 0.688s-0.752 0.25-1.147 0.257c-0.396 0.007-0.789-0.066-1.156-0.214s-0.701-0.371-0.98-0.652l-10.387-10.443c-0.289-0.271-0.521-0.598-0.682-0.961s-0.247-0.755-0.254-1.152 0.066-0.792 0.214-1.161c0.148-0.369 0.368-0.703 0.648-0.984s0.613-0.503 0.979-0.652 0.759-0.222 1.155-0.215c0.395 0.007 0.785 0.094 1.146 0.256s0.686 0.395 0.956 0.686l8.22 8.26 13.633-17.464c0.025-0.030 0.051-0.059 0.078-0.087h-0.004z"></path>
       </symbol>
@@ -105,7 +110,12 @@
           <li class="contactitem"><a class="add" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
-    </div>
+    </div> 
+    <div class="hamburger">
+<button class="przyciskhamburger" type="button">
+  <svg class="przyciskburger" height="25" width="25"><use href="./images/icons.svg#icon-Group"></use></svg>
+</button>
+      </div>
   </header>
   <main>
     <section class="first">
@@ -120,7 +130,7 @@
       <ul class="listapierwsza">
         <li class="pierwszypunkt">
           <div class="kontenersekcjadruga">
-          <svg width="64" height="64"><use href="./images/icons.svg#icon-antenna"></use></svg></div>
+          <svg class="ikonysekcja2" width="64" height="64"><use class="ikonkisekcja2" href="./images/icons.svg#icon-antenna"></use></svg></div>
           <h3 class="mikro">Strategy</h3>
           <p class="akapit">
             Our goal is to identify the business problem to walk away with the
@@ -129,7 +139,7 @@
         </li>
         <li class="pierwszypunkt">
           <div class="kontenersekcjadruga">
-          <svg width="64" height="64"><use href="./images/icons.svg#icon-clock"></use></svg></div>
+          <svg class="ikonysekcja2"width="64" height="64"><use href="./images/icons.svg#icon-clock"></use></svg></div>
           <h3 class="mikro">Punctuality</h3>
           <p class="akapit">
             Bring the key message to the brand's audience for the best price
@@ -138,7 +148,7 @@
         </li>
         <li class="pierwszypunkt">
           <div class="kontenersekcjadruga">
-            <svg width="64" height="64"><use href="./images/icons.svg#icon-diagram"></use></svg></div>
+            <svg  width="64" height="64"><use href="./images/icons.svg#icon-diagram"></use></svg></div>
           <h3 class="mikro">Diligence</h3>
           <p class="akapit">
             Research and confirm brands that present the strongest digital
@@ -147,7 +157,7 @@
         </li>
         <li class="pierwszypunkt">
           <div class="kontenersekcjadruga">
-            <svg width="64" height="64"><use href="./images/icons.svg#icon-astronaut"></use></svg></div>
+            <svg class="ikonysekcja2" width="64" height="64"><use href="./images/icons.svg#icon-astronaut"></use></svg></div>
           <h3 class="mikro">Technologies</h3>
           <p class="akapit">
             Design practice focused on digital experiences. We bring forth a
@@ -422,6 +432,7 @@
       </div>
     </div>
   </footer>
+  <!--
   <div class="okno-modalne">
     <div class="modal">
       <button type="button" class="przyciskmodal"><svg width="8" height="8" class="ikonamodal"><use href="./images/icons.svg#icon-iksik"></use></svg></button>
@@ -463,6 +474,6 @@
        <button class="przyciskcheckbox">Send</button>
       </form>
         </div>
-        </div>
+        </div>-->
 </body>
 </html>
